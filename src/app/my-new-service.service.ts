@@ -15,8 +15,8 @@ export class MyNewServiceService {
 
   }
 getData(){
-
-  return this.http.get('http://time.jsontest.com/').map(res=>res.json())
+//http://time.jsontest.com/
+  return this.http.get('http://jsonplaceholder.typicode.com/posts').map(res=>res.json())
 
  
 
