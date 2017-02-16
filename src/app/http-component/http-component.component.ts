@@ -40,7 +40,7 @@ info = 'app works!';
 
 
 onTestGet(){
-  alert("hi");
+ 
 
 this.newService.getData().subscribe(
   (data) => this.dataProduct = data,
